@@ -1,0 +1,42 @@
+.block_page_auth{
+    display:flex;
+
+    /* посередине вертикаль */
+    align-items: center;
+
+    /* Посередине горизонталь */
+    justify-content: center;
+
+    /* стили для картинки на заднем фоне */
+    background-image: url("../Images/trainy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+}
+.card_block{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+.auth_button{
+    margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 3px;
+    
+}
+
+.auth_input{
+    width:100%;
+    /* шрифт - font-family*/
+    font-family: Verdana;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border:1px solid gray;
+}
+.warning_p{
+    color:red
+}

@@ -1,0 +1,14 @@
+.block_page_audit{
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.cards_style_tests_audit{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height:auto;
+    border:2px solid black;
+}

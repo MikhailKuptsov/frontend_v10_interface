@@ -1,0 +1,73 @@
+[
+    {
+        "test_name":"раздел информатика",
+        "test_value":[
+            {"level_name":"уровень 1",
+            "level_value":[
+                {
+                    "task_label":"1",
+                    "task_value":"Напишите свою фамилию",
+                    "task_words":"напишите подробно свою фамилию без ошибок",
+                    "task_value_2":"пожалуйста",
+                    "deadline":"10/11/2025",
+                    "anser_yes_no":true,
+                    "comments":true
+                },{
+                    "task_label":"2",
+                    "task_value":"Опишите окружение",
+                    "task_words":"письменно",
+                    "task_value_2":"в этой форме",
+                    "deadline":null,
+                    "anser_yes_no":true,
+                    "comments":true
+                }
+            ]},
+            {"level_name":"уровень 2",
+            "level_value":[
+                {
+                    "task_label":"1",
+                    "task_value":"Напишите почему вы добрый",
+                    "task_words":"напишите подробно",
+                    "task_value_2":"это пожеланию",
+                    "deadline":"14/12/2025",
+                    "anser_yes_no":true,
+                    "comments":true
+                },{
+                    "task_label":"2",
+                    "task_value":"Напишите своё настроение",
+                    "task_words":"напишите почему или что вам сейчас мешает",
+                    "task_value_2":"why not",
+                    "deadline":"15/07/2023",
+                    "anser_yes_no":true,
+                    "comments":true
+                }
+            ]}
+        ]},
+    {"test_name":"раздел математика",
+    "test_value":[
+        {"level_name":"уровень 1",
+        "level_value":[
+            {
+                "task_label":"2",
+                "task_value":"Напишите своё настроение",
+                "task_words":"напишите почему или что вам сейчас мешает",
+                "task_value_2":"why not",
+                "deadline":null,
+                "anser_yes_no":true,
+                "comments":true
+            }
+        ]},
+        {"level_name":"уровень 3",
+        "level_value":[
+            {
+                "task_label":"1",
+                "task_value":"зачем ты сейчас проходишь этот тест",
+                "task_words":"напишите почему",
+                "task_value_2":"пожалуйста",
+                "deadline":null,
+                "anser_yes_no":true,
+                "comments":true
+            }
+        ]}
+        ]}
+]

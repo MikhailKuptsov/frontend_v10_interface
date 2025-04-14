@@ -1,0 +1,122 @@
+/* Первая таблица */
+.table_first{
+    display: flex;
+    margin: 5px;
+}
+.table_first_info_1{
+    width: auto;
+    margin: 5px;
+    
+}
+.table_first_info_2{
+    width: auto;
+    margin: 5px;
+}
+.table_first_info_3{
+    width: auto;
+    margin: 5px;
+}
+.table_first_info_4{
+    width: auto;
+    margin: 5px;
+}
+.table_first_info_5{
+    width: auto;
+    margin: 5px;
+}
+
+/* Заголовки таблицы */
+.table_lable{
+    display: flex;
+    flex-direction: row;
+}
+
+.table_lable_cell_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-weight:700;
+    border:1px solid black;
+}
+.table_lable_row_cells{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+}
+
+.table_lable_cell_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    width: 40%;
+    border:1px solid black;    
+}
+.table_lable_cell_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    width: 40%;
+    border:1px solid black;     
+}
+.table_lable_cell_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    width: 20%;
+    border:1px solid black; 
+    
+}
+.table_line{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+}
+.column_test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    border:1px solid black;
+}
+.column_with_data{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border:1px solid black;
+}
+.column_with_settings{
+    border:1px solid black;
+}
+.column_with_subtest_info{
+    border:1px solid black;
+}
+.row_with_subtest_info{
+    display: flex;
+    flex-direction: row;
+}
+.row_cell_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border:1px solid black;
+}
+.row_cell_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border:1px solid black;
+}
+.row_cell_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border:1px solid black;
+}

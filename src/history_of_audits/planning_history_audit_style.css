@@ -1,0 +1,29 @@
+.block_page_planning_history{
+    min-height: 100vh;
+    max-height: auto;
+    background-color: white;
+}
+.block_header_page_2{
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.block_content_history_of_audit{
+    padding: 15px;
+}
+.card_history_audit{
+    display: flex;
+    width: 100%;
+}
+.card_history_audit_header_item{
+    margin: 5px;
+}
+
+.block_audit_cards_place_history{
+    padding: 20px;
+}
+.block_audit_history_card{
+    margin: 10px;
+    border:2px solid black;
+    
+}

@@ -1,0 +1,43 @@
+.block_page_1{
+    min-height:100vh;
+    max-height: auto;
+    margin: 20px;
+}
+
+.block_header_admin{
+    margin-top: 1% ;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.search_line{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
+
+.button_style{
+    margin: 20px;
+}
+
+.cards_place{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cards_style{
+    margin: 20px;
+    width:300px;
+    height:auto;
+    background-color: white;
+}
+
+.admin_buttons_style{
+    margin: 5px;
+}
+.form_element{
+    width: 100%;
+}
