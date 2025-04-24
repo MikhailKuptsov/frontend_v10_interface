@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
-import { Row, Col, Button, Accordion,Card } from 'react-bootstrap';
+import { Row, Col, Button, Accordion} from 'react-bootstrap';
 
+//Персональные компоненты
+import Modal_status_audit from './modal_status_audit';
+import Modal_grafics_audit from './modal_grafics_audit';
+
+//Стили
 import "./main_page_css.css"
+
+
 
 
 export default function Block_select_audit({info}){
@@ -10,6 +17,9 @@ export default function Block_select_audit({info}){
         date_start:"10.11.2023",
         date_end:"13.12.2023",
         tests:[{test_name:"менеджмент",test_href:"/test_page_v4"}, {test_name:"ОТиБ",test_href:"/test_page_v4"}]}]
+        
+    const type_of_users=["admin","moderator","moderator_create_audit","moderator_check_results","auditor","worker_RPS"]
+    let flag=type_of_users[0];
 
     const audit_accordions=audit_info.map((item, index)=> 
     // <Card>
@@ -28,6 +38,11 @@ export default function Block_select_audit({info}){
             </div>
         </Accordion.Header>
         <Accordion.Body>
+            {/* {(flag==="admin" || flag==="auditor")?<Button size='lg' style={{width:"100%",margin:"5px"}} variant='outline-dark' >Проверить состояние</Button>:null} */}
+            {(flag==="admin" || flag==="auditor")?<Modal_status_audit info={{button_label:"Проверить состояние"}}/>:null}
+            {(flag==="admin" || flag==="auditor")?<Modal_grafics_audit info={{button_label:"Текущий график аудита"}}/>:null}
+            {/* {(flag==="admin" || flag==="auditor")?<Button size='lg' style={{width:"100%",margin:"5px"}} variant='outline-dark'>Текущий график аудита</Button>:null} */}
+            <h3>Назначенные разделы:</h3>
             {item.tests.map(item_2=><Button size='lg' variant='outline-dark' 
             style={{width:"100%",margin:"5px"}} 
             // className='button_test_style'
